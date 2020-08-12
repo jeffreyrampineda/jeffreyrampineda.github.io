@@ -4,6 +4,7 @@ html {
     /* 1 */
     -webkit-text-size-adjust: 100%;
     /* 2 */
+    overflow-y: scroll;
 }
 
 
@@ -11,6 +12,7 @@ body {
     margin: 0;
 }
 
+img,
 main {
     display: block;
 }
@@ -28,4 +30,8 @@ h4 {
 
 p {
     margin: 0;
+}
+
+a {
+    text-decoration: none;
 }
