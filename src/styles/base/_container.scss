@@ -1,0 +1,19 @@
+.container {
+    background-color: $containerBackgroundColor;
+    position: absolute;
+    top: 8vh;
+    left: 0;
+    right: 0;
+    max-width: $maxContainerWidth;
+    margin: 0 auto;
+}
+
+.container-main {
+    height: 100%;
+}
+
+.content {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    padding: 2em;
+}

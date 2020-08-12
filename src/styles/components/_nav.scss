@@ -1,0 +1,43 @@
+.navbar {
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-belt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    width: 100%;
+    max-width: $maxContainerWidth;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 50vh;
+    margin: 0;
+
+    a {
+        text-decoration: none;
+        letter-spacing: 0.1rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: $navLabelsColor;
+    }
+
+    li {
+        margin: 2rem;
+        list-style: none;
+    }
+}
+
+.active {
+    border-bottom: 0.125rem solid $textColor;
+}
