@@ -6,10 +6,7 @@ import About from "../components/About"
 
 const AboutPage = () => (
   <Layout>
-    <SEO
-      title="About"
-      description="About"
-    />
+    <SEO title="About" description="About" />
     <About />
   </Layout>
 )

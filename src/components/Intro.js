@@ -7,7 +7,9 @@ const Intro = _ => {
         <h4>Junior Web Developer</h4>
         <h1>Jeffrey Ram Pineda</h1>
       </div>
-      <p className="intro-subtitle">with a strong passion for innovative and creative ideas</p>
+      <p className="intro-subtitle">
+        with a strong passion for innovative and creative ideas
+      </p>
     </div>
   )
 }

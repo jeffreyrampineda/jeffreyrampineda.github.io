@@ -1,0 +1,33 @@
+.progress {
+    background: rgba(0, 0, 0, 0.2);
+    justify-content: flex-end;
+    border-radius: 1rem;
+    align-items: center;
+    padding: 0 5px;
+    display: flex;
+    height: 32px;
+    width: 350px;
+}
+
+.progress-value {
+    box-shadow: 0 10px 32px -8px $primaryColor;
+    border-radius: 1rem;
+    background: $primaryColor;
+    height: 22px;
+    width: 100%;
+}
+
+.skill-label {
+    float: right;
+    margin-left: 16px;
+    line-height: 1.15;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    margin: 16px;
+}
