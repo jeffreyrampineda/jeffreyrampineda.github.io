@@ -13,16 +13,24 @@ const Navbar = _ => {
           <div></div>
           <ul className={navClasses}>
             <li className={navItemClasses}>
-              <Link to="/">Home</Link>
+              <Link activeClassName="active" to="/">
+                Home
+              </Link>
             </li>
             <li className={navItemClasses}>
-              <Link to="/projects">Projects</Link>
+              <Link activeClassName="active" to="/projects">
+                Projects
+              </Link>
             </li>
             <li className={navItemClasses}>
-              <Link to="/about">About</Link>
+              <Link activeClassName="active" to="/about">
+                About
+              </Link>
             </li>
             <li className={navItemClasses}>
-              <Link to="/contact">Contact</Link>
+              <Link activeClassName="active" to="/contact">
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
