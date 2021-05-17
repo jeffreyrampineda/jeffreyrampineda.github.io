@@ -11,7 +11,7 @@ const ContactPage = () => (
       <ul class="mt-3">
         <li>
           <strong>Email</strong>:{" "}
-          <a href="mailto:jeffreyram@pineda.org">jeffreyram@pineda.org</a>
+          <a href="mailto:jeffreyrampineda@gmail.com">jeffreyrampineda@gmail.com</a>
         </li>
         <li>
           <strong>Github</strong>:{" "}
