@@ -33,7 +33,7 @@ export default function Hero() {
               {socialLinks.map((item) => (
                 <a key={`icon_${item.name}`} href={item.href}>
                   <Image
-                    className="invert"
+                    className="dark:invert"
                     src={`/assets/social_icons/icon_${item.name}.svg`}
                     alt={`Icon of ${item.name}`}
                     width={24}
