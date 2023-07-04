@@ -58,7 +58,7 @@ export default function Footer() {
         <div className="grow md:w-1/6 flex flex-col gap-y-4 font-light tracking-wide">
           <h3 className="font-bold">Contact Me</h3>
           <p>Toronto, Ontario</p>
-          <p className="text-secondary">
+          <p>
             <a href="mailto:jeffreyrampineda@gmail.com">
               jeffreyrampineda@gmail.com
             </a>
