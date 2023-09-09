@@ -23,7 +23,14 @@ export default function NavBar() {
         aria-label="Global"
       >
         <div className="lg:flex-1">
-          <a href="/">#</a>
+          <a href="/">
+            <Image
+              src="/assets/logo.png"
+              width={42}
+              height={42}
+              alt="Logo of Jeffrey Ram Pineda"
+            />
+          </a>
         </div>
         <div className="flex lg:hidden">
           <button

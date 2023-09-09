@@ -27,7 +27,14 @@ export default function Footer() {
     >
       <div className="flex flex-col md:flex-row gap-16">
         <div className="grow md:w-3/6 flex flex-col gap-y-4">
-          <a href="/">#</a>
+          <a className="flex justify-center md:justify-start" href="/">
+            <Image
+              src="/assets/logo.png"
+              width={42}
+              height={42}
+              alt="Logo of Jeffrey Ram Pineda"
+            />
+          </a>
           <p className="max-w-md font-light tracking-wide">
             Although I may not be able to respond immediately, my inbox is
             always open. Whether you have a question or just want to say hi,
@@ -37,7 +44,7 @@ export default function Footer() {
             {socialLinks.map((item) => (
               <a key={`icon_${item.name}`} href={item.href}>
                 <Image
-                  className="dark:invert"
+                  className="invert-[.5]"
                   src={`/assets/social_icons/icon_${item.name}.svg`}
                   alt={`Icon of ${item.name}`}
                   width={24}
