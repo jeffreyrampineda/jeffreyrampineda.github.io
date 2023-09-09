@@ -66,7 +66,10 @@ export default function Footer() {
           <h3 className="font-bold">Contact Me</h3>
           <p>Toronto, Ontario</p>
           <p>
-            <a href="mailto:jeffreyrampineda@gmail.com">
+            <a
+              className="text-sky-300"
+              href="mailto:jeffreyrampineda@gmail.com"
+            >
               jeffreyrampineda@gmail.com
             </a>
           </p>
