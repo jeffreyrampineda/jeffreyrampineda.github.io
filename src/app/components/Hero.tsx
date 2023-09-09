@@ -26,14 +26,16 @@ export default function Hero() {
       className="container mx-auto px-3 md:px-6 xl:px-32 mt-[2rem] lg:mt-0 h-screen"
     >
       <div className="h-full lg:mt-[32vh]">
-        <div className="flex flex-col lg:flex-row items-start gap-y-8">
+        <div className="flex flex-col lg:flex-row items-start gap-8">
           <div className="grow lg:w-1/2 flex flex-col gap-6">
-            <h1 className="text-6xl xl:text-7xl">Jeffrey Ram Pineda</h1>
+            <h1 className="text-5xl md:text-7xl font-light hover-scale">
+              Jeffrey Ram Pineda
+            </h1>
             <div className="flex flex-row gap-4">
               {socialLinks.map((item) => (
                 <a key={`icon_${item.name}`} href={item.href}>
                   <Image
-                    className="dark:invert"
+                    className="invert-[.5] hover:scale-125 transition-all duration-300"
                     src={`/assets/social_icons/icon_${item.name}.svg`}
                     alt={`Icon of ${item.name}`}
                     width={24}
@@ -45,23 +47,31 @@ export default function Hero() {
           </div>
           <div className="grow lg:w-1/2 flex flex-col gap-6">
             <div>
-              <h3>Introduction</h3>
-              <h2 className="text-5xl xl:text-6xl font-thin">
+              <h3 className="text-gray-500 hover-scale">Introduction</h3>
+              <h2 className="text-3xl xl:text-5xl font-thin hover-scale">
                 Full Stack Developer
               </h2>
             </div>
             <div>
-              <h3>HTML / CSS / SASS & SCSS / React</h3>
-              <h3>MongoDB / PostgreSQL / MySQL / SQLite</h3>
-              <h3>MEAN & JAMSTACK Experience</h3>
+              <h3 className="text-gray-500 hover-scale">
+                HTML / CSS / SASS & SCSS / React
+              </h3>
+              <h3 className="text-gray-500 hover-scale">
+                MongoDB / PostgreSQL / MySQL / SQLite
+              </h3>
+              <h3 className="text-gray-500 hover-scale">
+                MEAN & JAMSTACK Experience
+              </h3>
             </div>
             <div>
-              <p>
+              <p className="hover-scale">
                 Experience in designing and developing user interfaces, testing
                 & debugging.
               </p>
-              <p>Able to work independently and within a team.</p>
-              <p>
+              <p className="hover-scale">
+                Able to work independently and within a team.
+              </p>
+              <p className="hover-scale">
                 Creating clean, testable, maintainable and functional code is
                 the highest priority.
               </p>
