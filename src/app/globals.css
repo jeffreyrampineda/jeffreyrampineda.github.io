@@ -34,3 +34,23 @@ body {
 .hover-scale {
   @apply hover:scale-105 transition-all duration-300;
 }
+
+.bg-shapes {
+  background-image: url("/assets/shapes-background.svg");
+  animation: shapes-animation 20s ease infinite;
+}
+
+@keyframes shapes-animation {
+  0% {
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+  50% {
+    background-position-x: -50vw;
+    background-position-y: 50vh;
+  }
+  100% {
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+}
