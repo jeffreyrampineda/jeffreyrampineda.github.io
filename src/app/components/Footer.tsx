@@ -25,7 +25,7 @@ export default function Footer() {
       id="footer"
       className="w-full container mx-auto px-3 py-8 md:px-6 md:py-16 xl:px-32 text-center md:text-left"
     >
-      <div className="flex flex-col md:flex-row gap-16">
+      <div className="flex flex-col md:flex-row gap-y-16 gap-x-2">
         <div className="grow md:w-3/6 flex flex-col gap-y-4">
           <a className="flex justify-center md:justify-start" href="/">
             <Image
