@@ -23,9 +23,9 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="container mx-auto px-3 md:px-6 xl:px-32 mt-[2rem] h-screen"
+      className="container mx-auto px-3 md:px-6 xl:px-32 h-screen"
     >
-      <div className="h-full lg:pt-[18vh]">
+      <div className="h-full flex flex-col justify-center">
         <div className="flex flex-col lg:flex-row items-start gap-8">
           <div className="grow lg:w-1/2 flex flex-col gap-6">
             <h1 className="text-5xl md:text-7xl font-light hover-scale">
