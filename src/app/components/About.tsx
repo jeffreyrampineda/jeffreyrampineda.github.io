@@ -30,8 +30,12 @@ export default function About() {
             className="shadow-2xl hover-scale"
             src="/assets/profile-picture.jpg"
             alt="A profile picture of Jeffrey Ram Pineda"
-            width={288}
-            height={288}
+            width={500}
+            height={500}
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
           />
         </div>
       </div>
